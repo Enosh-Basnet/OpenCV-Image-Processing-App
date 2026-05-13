@@ -129,7 +129,7 @@ class GameManager:
             "guesses_locked": self.guesses_locked,
             "revealed": self.revealed
         }
-
+#creating functions
     def get_current_score(self):
         return self.current_score
 
