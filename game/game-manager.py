@@ -23,7 +23,7 @@ class GameManager:
         self.game_complete = False
         self.guesses_locked = False
         self.revealed = False
-
+#creating function
     def start_new_game(self, image_path):
         self.image_a = cv2.imread(image_path)
 
