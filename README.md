@@ -312,6 +312,3 @@ Potential future enhancements include:
 
 ---
 
-# Author
-
-Developed as part of an OpenCV image processing assignment project.
