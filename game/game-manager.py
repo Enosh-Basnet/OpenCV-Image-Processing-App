@@ -55,7 +55,7 @@ class GameManager:
                 "game_complete": self.game_complete,
                 "guesses_locked": self.guesses_locked
             }
-#loop for alteration
+#alteration loop
         for alteration in self.alterations:
             if not alteration.found and alteration.contains_point(x, y):
                 alteration.mark_found()
