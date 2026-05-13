@@ -3,7 +3,7 @@ import cv2
 #import python codes from other file
 from processing.difference_generator import DifferenceGenerator
 
-
+#creating game manager class
 class GameManager:
     def __init__(self, points_per_difference=10, max_mistakes=3):
         self.generator = DifferenceGenerator(difference_count=5)
