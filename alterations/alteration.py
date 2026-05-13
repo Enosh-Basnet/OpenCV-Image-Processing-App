@@ -3,7 +3,7 @@ class Alteration:
         self.region = region
         self.name = name
         self.found = False
-
+#mark
     def mark_found(self):
         self.found = True
 
