@@ -1,5 +1,6 @@
+#import cv2 python module
 import cv2
-#file
+#import python codes from other file
 from processing.difference_generator import DifferenceGenerator
 
 
