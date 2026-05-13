@@ -1,8 +1,9 @@
+#main module
 import cv2
 
 from processing.difference_generator import DifferenceGenerator
 
-
+#creating game manager class
 class GameManager:
     def __init__(self, points_per_difference=10, max_mistakes=3):
         self.generator = DifferenceGenerator(difference_count=5)
@@ -54,7 +55,7 @@ class GameManager:
                 "game_complete": self.game_complete,
                 "guesses_locked": self.guesses_locked
             }
-
+#loop for alternation
         for alteration in self.alterations:
             if not alteration.found and alteration.contains_point(x, y):
                 alteration.mark_found()
@@ -128,7 +129,7 @@ class GameManager:
             "guesses_locked": self.guesses_locked,
             "revealed": self.revealed
         }
-
+#creating function
     def get_current_score(self):
         return self.current_score
 
